@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lemonchiffon;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(18, 236, 236);
+}
+
+.logo img{
+    max-width: 50px;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.navigation_bar ul {
+    list-style: none;
+    display: flex;
+    margin-left: 35%;
+}
+
+.navigation_bar li {
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.navigation_bar a {
+    color: rgb(25, 218, 208);
+    text-decoration: none;
+}
+
+.navigation_bar a:hover {
+    color: black;
+}
+
+.log_in {
+    margin-right: 20px;
+}
+
+.log_in button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.log_in button:hover {
+    background-color: rgb(103, 37, 209);
+    color: black;
+}
+
+.main{
+    background-image: url('Govt._Tolaram_College.jpg'); /* Path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: fixed;
+    top: 50;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 70%;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 50%;
+    border: 1px solid black;
+    margin-left: 30px;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    background-color: aqua;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(130, 219, 219);
+}
+
+input[type="date"] {
+    background-color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    background-color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: rgb(22, 8, 226);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.2);
+}
